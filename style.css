@@ -1,0 +1,128 @@
+body {
+    font-family: 'Baloo Bhai', cursive;
+    color: white;
+    margin: 0px;
+    padding: 0px;
+    background: url('gym.png') no-repeat;
+    background-color: rgba(0, 0, 0, 0);
+    background-position-x: 0%;
+    background-position-y: 0%;
+    background-position: right -385px top;
+    margin-right: 5px;
+    background-color: #131111;
+}
+
+.L {
+    display: inline-block;
+    /* border: 2px solid red; */
+    position: absolute;
+    left: 60px;
+    top: 20px;
+}
+
+.L img {
+    width: 84px;
+    color: black;
+    margin: -2px;
+    border: 2px white;
+}
+
+.L div {
+    line-height: 36px;
+    font-size: 18px;
+    text-align: left;
+    position: relative;
+    top: -2px;
+    left: -21px;
+    font-style: italic;
+    font-family: sans serif;
+    font-weight: bold;
+}
+
+.M {
+    display: block;
+    width: 36%;
+    margin: 29px auto;
+    /* border: 2px solid green; */
+}
+
+.R {
+    position: absolute;
+    right: 34px;
+    top: 43px;
+    display: inline-block;
+    /* border: 2px solid yellow; */
+}
+
+.Navigation {
+    display:flex;
+    flex-direction: row;
+}
+
+.Navigation li {
+    display: inline-block;
+    font-size: 25px;
+}
+
+.Navigation li a {
+    text-decoration: none;
+    color: aliceblue;
+    padding: 34px 23px;
+    font-size: 11px;
+
+}
+
+.Navigation li a:hover,
+.Navigation li a.active {
+    text-decoration: underline;
+    color: grey;
+
+}
+
+.btn {
+    font-family: 'Baloo Bhai', cursive;
+    margin: -12px 10px;
+    background-color: black;
+    color: white;
+    padding: 3px 15px;
+    border: 2px solid grey;
+    border-radius: 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: rgb(31, 30, 30);
+}
+
+.container {
+    border: 2px solid white;
+    margin: 113px 62px;
+    padding: 49px;
+    width: 40%;
+    border-radius: 28px;
+    width: 40%;
+}
+
+.form-group input {
+    font-family: 'Baloo Bhai', cursive;
+    text-align: center;
+    display: block;
+    width: 496px;
+    padding: 0px;
+    border: 2px solid black;
+    margin: 7px auto;
+    font-size: 22px;
+    border-radius: 7px;
+}
+
+.container h1 {
+    text-align: center;
+    font-size: 153%;
+}
+
+.container button {
+    display: block;
+    width: 74%;
+    margin: 20px auto;
+}
